@@ -7,6 +7,7 @@ public class MapMovement : MonoBehaviour
 {
     [SerializeField] private float maxPositionX;
     [SerializeField] private float maxPositionY;
+    [SerializeField] private float movementSpeed;
 
     private Vector3 currentDirection;
 
@@ -19,7 +20,7 @@ public class MapMovement : MonoBehaviour
             switch (touch.phase)
             {
                 case TouchPhase.Moved:
-                    currentDirection = touch.deltaPosition * 0.001f;
+                    currentDirection = touch.deltaPosition * movementSpeed;
                     CheckBoundaries(currentDirection);
                     break;
 
