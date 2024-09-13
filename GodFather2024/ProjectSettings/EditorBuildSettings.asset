@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Scene.unity
+    path: Assets/Scenes/Luc.unity
     guid: 55676b5058af8a840943626fc52476d0
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: b222c80158479e741b11ba7eef72f4fc,
