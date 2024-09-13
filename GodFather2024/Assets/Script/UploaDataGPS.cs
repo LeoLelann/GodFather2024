@@ -11,6 +11,6 @@ public class UploaDataGPS : MonoBehaviour
 
     private void FixedUpdate()
     {
-        gpsLocation.
+        
     }
 }
